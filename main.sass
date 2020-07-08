@@ -18,7 +18,7 @@ $background: #1e2023
 $gutter-background: #23262b
 $search-all: #93f2b9
 $search-match: #ff8b5e
-$matching-bracket: #3c4754
+$matching-bracket: rgba(200, 200, 225, .2)
 
 /* General */
 span
@@ -219,7 +219,7 @@ span
       border-bottom: 1px solid $yellow
       
 .CodeMirror-activeline-background
-  background: #23262c !important
+  background: lighten($background, 5%) !important
 
 /* Searching */
 .CodeMirror-searching

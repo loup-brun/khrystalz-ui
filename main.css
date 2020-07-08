@@ -218,13 +218,13 @@ span.cm-variable-3 {
 
 /* Matching */
 .CodeMirror-matchingbracket {
-  background: #3c4754 !important;
+  background: rgba(200, 200, 225, 0.2) !important;
   border-bottom: 1px solid #98c379 !important;
   color: #98c379 !important;
 }
 
 .CodeMirror-matchingtag {
-  background: #3c4754 !important;
+  background: rgba(200, 200, 225, 0.2) !important;
 }
 
 /* Active Line */
@@ -241,7 +241,7 @@ span.cm-variable-3 {
 }
 
 .CodeMirror-activeline-background {
-  background: #23262c !important;
+  background: #2a2d31 !important;
 }
 
 /* Searching */
