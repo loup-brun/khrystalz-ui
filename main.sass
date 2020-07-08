@@ -4,6 +4,7 @@ $grey-light: #abb2bf
 $grey-light-blue: #94a6c7
 $grey-dark: #7d889c
 $red: #d86c74
+$pink: #ed556c
 $blue: #6caff2
 $green: #98c379
 $orange: #cd9a61
@@ -13,9 +14,11 @@ $yellow: #ffdd53
 // Specific
 $error: #ff4d66
 $comment: #5a6271
-$background: #282c34
+$background: #1e2023
+$gutter-background: #23262b
 $search-all: #93f2b9
 $search-match: #ff8b5e
+$matching-bracket: #3c4754
 
 /* General */
 span
@@ -70,7 +73,7 @@ span
   &.cm-keyword,
   &.cm-builtin,
   &.cm-operator
-    color: $grey-dark
+    color: $grey-light-blue
   &.cm-number,
   &.cm-string
     color: $green
@@ -78,7 +81,7 @@ span
     color: $grey-light
   &.cm-qualifier
     color: $red
-  &.cm-variable-2,
+  &.cm-variable-2
     color: $cyan
   &.cm-variable-3
     color: $orange
@@ -167,7 +170,7 @@ span
   background-color: $background
   
 .CodeMirror-scroll
-  background: #23262c
+  background: $background
   color: $grey-dark
 
 .CodeMirror-cursor
@@ -179,8 +182,8 @@ span
     border-left: none !important
 
 .CodeMirror-gutters
-  background: #23262c
-  border-right: 1px solid #23262c
+  background: $gutter-background
+  border-right: 1px solid $gutter-background
 
 .CodeMirror-foldmarker
   border: 1px solid #464C59
@@ -194,12 +197,12 @@ span
 
 /* Matching */
 .CodeMirror-matchingbracket
-  background: #38404C !important
-  border-bottom: 1px solid $blue !important
-  color: $grey-light !important
+  background: $matching-bracket !important
+  border-bottom: 1px solid $green !important
+  color: $green !important
 
 .CodeMirror-matchingtag
-  background: #38404C !important
+  background: $matching-bracket !important
 
 /* Active Line */
 .CodeMirror-focused 

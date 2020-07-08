@@ -1,192 +1,267 @@
 /* General */
 span.cm-comment {
-  color: #5a6271; }
+  color: #5a6271;
+}
 span.cm-error {
-  color: #ff4d66; }
+  color: #ff4d66;
+}
 span.cm-header {
-  color: #abb2bf; }
+  color: #abb2bf;
+}
 span.cm-link {
-  color: #98c379; }
+  color: #98c379;
+}
 span.cm-meta {
-  color: #abb2bf; }
+  color: #abb2bf;
+}
 span.cm-string-2 {
-  color: #98c379; }
+  color: #98c379;
+}
 span.cm-variable {
-  color: #abb2bf; }
+  color: #abb2bf;
+}
 span.cm-variable-3 {
-  color: #64B6C3; }
+  color: #64B6C3;
+}
 
 /* CSS, LESS */
 .cm-m-css.cm-atom {
-  color: #7d889c; }
+  color: #7d889c;
+}
 .cm-m-css.cm-def {
-  color: #69d6ac; }
+  color: #69d6ac;
+}
 .cm-m-css.cm-builtin, .cm-m-css.cm-attribute, .cm-m-css.cm-variable-2 {
-  color: #6caff2; }
+  color: #6caff2;
+}
 .cm-m-css.cm-number, .cm-m-css.cm-string {
-  color: #98c379; }
+  color: #98c379;
+}
 .cm-m-css.cm-property {
-  color: #abb2bf; }
+  color: #abb2bf;
+}
 .cm-m-css.cm-qualifier, .cm-m-css.cm-tag {
-  color: #d86c74; }
+  color: #d86c74;
+}
 .cm-m-css.cm-keyword {
-  color: #6caff2; }
+  color: #6caff2;
+}
 .cm-m-css.cm-variable-3 {
-  color: #cd9a61; }
+  color: #cd9a61;
+}
 
 /* SASS */
 .cm-m-sass.cm-def {
-  color: #cd9a61; }
+  color: #cd9a61;
+}
 .cm-m-sass.cm-tag {
-  color: #d86c74; }
+  color: #d86c74;
+}
 .cm-m-sass.cm-atom, .cm-m-sass.cm-attribute, .cm-m-sass.cm-keyword, .cm-m-sass.cm-builtin, .cm-m-sass.cm-operator {
-  color: #7d889c; }
+  color: #94a6c7;
+}
 .cm-m-sass.cm-number, .cm-m-sass.cm-string {
-  color: #98c379; }
+  color: #98c379;
+}
 .cm-m-sass.cm-property {
-  color: #abb2bf; }
+  color: #abb2bf;
+}
 .cm-m-sass.cm-qualifier {
-  color: #d86c74; }
+  color: #d86c74;
+}
 .cm-m-sass.cm-variable-2 {
-  color: #69d6ac; }
+  color: #69d6ac;
+}
 .cm-m-sass.cm-variable-3 {
-  color: #cd9a61; }
+  color: #cd9a61;
+}
 
 /* HTML, XML */
 .cm-m-xml {
-  color: #abb2bf; }
-  .cm-m-xml.cm-meta {
-    color: #69d6ac; }
-  .cm-m-xml.cm-tag.cm-bracket {
-    color: #7d889c; }
-  .cm-m-xml.cm-attribute {
-    color: #6caff2; }
-  .cm-m-xml.cm-string {
-    color: #98c379; }
-  .cm-m-xml.cm-tag {
-    color: #d86c74; }
-  .cm-m-xml.cm-atom {
-    color: #d86c74; }
+  color: #abb2bf;
+}
+.cm-m-xml.cm-meta {
+  color: #69d6ac;
+}
+.cm-m-xml.cm-tag.cm-bracket {
+  color: #7d889c;
+}
+.cm-m-xml.cm-attribute {
+  color: #6caff2;
+}
+.cm-m-xml.cm-string {
+  color: #98c379;
+}
+.cm-m-xml.cm-tag {
+  color: #d86c74;
+}
+.cm-m-xml.cm-atom {
+  color: #d86c74;
+}
 
 /* Javascript */
 .cm-m-javascript.cm-atom, .cm-m-javascript.cm-number, .cm-m-javascript.cm-string {
-  color: #98c379; }
+  color: #98c379;
+}
 .cm-m-javascript.cm-def {
-  color: #69d6ac; }
+  color: #69d6ac;
+}
 .cm-m-javascript.cm-keyword {
-  color: #d86c74; }
+  color: #d86c74;
+}
 .cm-m-javascript.cm-operator {
-  color: #abb2bf; }
+  color: #abb2bf;
+}
 .cm-m-javascript.cm-property {
-  color: #94a6c7; }
+  color: #94a6c7;
+}
 .cm-m-javascript.cm-variable-2 {
-  color: #6caff2; }
+  color: #6caff2;
+}
 
 /* PHP */
 .cm-m-clike.cm-atom, .cm-m-clike.cm-number, .cm-m-clike.cm-string {
-  color: #98c379; }
+  color: #98c379;
+}
 .cm-m-clike.cm-keyword {
-  color: #d86c74; }
+  color: #d86c74;
+}
 .cm-m-clike.cm-operator {
-  color: #abb2bf; }
+  color: #abb2bf;
+}
 .cm-m-clike.cm-def {
-  color: #69d6ac; }
+  color: #69d6ac;
+}
 .cm-m-clike.cm-builtin {
-  color: #94a6c7; }
+  color: #94a6c7;
+}
 .cm-m-clike.cm-variable-2 {
-  color: #6caff2; }
+  color: #6caff2;
+}
 
 /* Markdown */
 .cm-m-markdown {
-  color: #abb2bf; }
-  .cm-m-markdown.cm-quote, .cm-m-markdown.cm-comment {
-    color: #94a6c7; }
-  .cm-m-markdown.cm-header {
-    color: #d86c74 !important; }
-  .cm-m-markdown.cm-image-marker {
-    color: #ffdd53 !important; }
-  .cm-m-markdown.cm-link.cm-variable-2 {
-    color: #7d889c; }
-  .cm-m-markdown.cm-strong {
-    color: #69d6ac !important; }
-  .cm-m-markdown.cm-image-alt-text {
-    color: #cd9a61 !important; }
-  .cm-m-markdown.cm-string {
-    color: #98c379 !important; }
-  .cm-m-markdown.cm-variable-2 {
-    color: #abb2bf; }
-  .cm-m-markdown.cm-link {
-    color: #6caff2; }
-    .cm-m-markdown.cm-link.cm-variable-2 {
-      color: #6caff2; }
+  color: #abb2bf;
+}
+.cm-m-markdown.cm-quote, .cm-m-markdown.cm-comment {
+  color: #94a6c7;
+}
+.cm-m-markdown.cm-header {
+  color: #d86c74 !important;
+}
+.cm-m-markdown.cm-image-marker {
+  color: #ffdd53 !important;
+}
+.cm-m-markdown.cm-link.cm-variable-2 {
+  color: #7d889c;
+}
+.cm-m-markdown.cm-strong {
+  color: #69d6ac !important;
+}
+.cm-m-markdown.cm-image-alt-text {
+  color: #cd9a61 !important;
+}
+.cm-m-markdown.cm-string {
+  color: #98c379 !important;
+}
+.cm-m-markdown.cm-variable-2 {
+  color: #abb2bf;
+}
+.cm-m-markdown.cm-link {
+  color: #6caff2;
+}
+.cm-m-markdown.cm-link.cm-variable-2 {
+  color: #6caff2;
+}
 
 /* Editor */
 .CodeMirror {
-  line-height: 1.4; }
+  line-height: 1.4;
+}
 
 .CodeMirror-vscrollbar,
 .CodeMirror-hscrollbar {
-  background-color: #282c34; }
+  background-color: #1e2023;
+}
 
 .CodeMirror-scroll {
-  background: #23262c;
-  color: #7d889c; }
+  background: #1e2023;
+  color: #7d889c;
+}
 
 .CodeMirror-cursor {
-  border-left: 1px solid #ffdd53 !important; }
+  border-left: 1px solid #ffdd53 !important;
+}
 
 .CodeMirror-overwrite .CodeMirror-cursor {
   border-bottom: 1px solid #528BFF !important;
-  border-left: none !important; }
+  border-left: none !important;
+}
 
 .CodeMirror-gutters {
-  background: #23262c;
-  border-right: 1px solid #23262c; }
+  background: #23262b;
+  border-right: 1px solid #23262b;
+}
 
 .CodeMirror-foldmarker {
   border: 1px solid #464C59;
-  background-color: #282c34; }
+  background-color: #1e2023;
+}
 
 .CodeMirror-linenumber {
-  color: #5a6271; }
+  color: #5a6271;
+}
 
 .CodeMirror-selected {
-  background: #3E4451 !important; }
+  background: #3E4451 !important;
+}
 
 /* Matching */
 .CodeMirror-matchingbracket {
-  background: #38404C !important;
-  border-bottom: 1px solid #6caff2 !important;
-  color: #abb2bf !important; }
+  background: #3c4754 !important;
+  border-bottom: 1px solid #98c379 !important;
+  color: #98c379 !important;
+}
 
 .CodeMirror-matchingtag {
-  background: #38404C !important; }
+  background: #3c4754 !important;
+}
 
 /* Active Line */
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
-  color: #ff0076 !important; }
+  color: #ff0076 !important;
+}
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
   color: #abb2bf;
-  background-color: #333842; }
+  background-color: #2a2d31;
+}
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-activeline-gutter {
-  background-color: #333842;
-  border-bottom: 1px solid #ffdd53; }
+  background-color: #2a2d31;
+  border-bottom: 1px solid #ffdd53;
+}
 
 .CodeMirror-activeline-background {
-  background: #23262c !important; }
+  background: #23262c !important;
+}
 
 /* Searching */
 .CodeMirror-searching {
   background-color: #93f2b9;
-  color: #000 !important; }
+  color: #000 !important;
+}
 
 .CodeMirror-searching.searching-current-match {
-  background-color: #ff8b5e; }
+  background-color: #ff8b5e;
+}
 
 /* Non-editor styling */
 #image-holder,
 #not-editor {
-  background-color: #282c34; }
+  background-color: #1e2023;
+}
 
 #image-holder {
-  color: #282c34; }
+  color: #1e2023;
+}
+
+/*# sourceMappingURL=main.css.map */
